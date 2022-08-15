@@ -1,0 +1,21 @@
+.main_div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5%;
+  box-sizing: border-box;
+}
+.box {
+  width: 20%;
+  border: solid 2px #000;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 5%;
+  font-size: 30px;
+}
+
+.box_active {
+  background-color: green;
+  color: #fff;
+}
